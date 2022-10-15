@@ -1,0 +1,58 @@
+.heading{
+    width: 100%;
+    text-align: left;
+}
+
+h3{
+    display: inline;
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+}
+
+.heading button{
+    float:right;
+    border: 1px solid white;
+}
+
+.big_image{
+    width: 100%;
+}
+
+#start, #status{
+    font-size: 22px;
+}
+
+h4{
+    background-color: #f2f2f2;
+    line-height: 2;
+    margin: 0px;
+}
+
+.modal_dialogue{
+    width: 90%;
+}
+
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+
+video{
+    background: url('game_console.png');
+    background-size: cover;
+    background-position: center;
+    padding: 25px
+}
+
+.gradient{
+    background: hsla(0, 90%, 80%, 1);
+
+    background: linear-gradient(90deg, hsla(0, 90%, 80%, 1) 0%, hsla(1, 100%, 39%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(0, 90%, 80%, 1) 0%, hsla(1, 100%, 39%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(0, 90%, 80%, 1) 0%, hsla(1, 100%, 39%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FA9F9F", endColorstr="#C80200", GradientType=1 );
+
+}
